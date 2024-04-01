@@ -9,4 +9,4 @@ A contact page made with HTML and SASS. This is a challenge for [devChallenges](
 
 
 
-![Screenshot](https://github.com/nacho1520/testimonial-page/blob/main/public/shot.png)
+![Screenshot](https://github.com/nacho1520/contact-page/blob/main/public/screen-shot.png)
