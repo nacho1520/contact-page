@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becv - Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+    <main>
+        <div class="logo">
+            <img src="assets/contact-form-icon.svg">
+        </div>
+
+        <section class="header">
+            <h1>Interested in our business pricing?</h1>
+            <h3>Fill out the form to view details and we’ll contact you as soon as possible.</h3>
+        </section>
+
+        <form>
+            <div class="item-1 col-container">
+                <label>Name</label>
+                <input type="text" name="name" placeholder="Ethan Johnson" class="input-field">
+            </div>
+
+            <div class="item-2 col-container">
+                <label>Company Email</label>
+                <input type="text" name="name" placeholder="ethan@johnson.com" class="input-field">
+            </div>
+
+            <div class="item-3 col-container">
+                <label>Company Size</label>
+                <div class="dropdown">
+                    <span>50-100 employees</span>
+                    <img src="./assets/Expand_down.svg" class="expand-down">
+                    <div class="dropdown-content">
+                        <div class="dropdown-content-container">
+                            <p>100-200 employees</p>
+                            <p>200-500 employees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-4 col-container">
+                <label>Subject</label>
+                <div class="dropdown">
+                    <span>Building Landing pages</span>
+                    <img src="./assets/Expand_down.svg" class="expand-down">
+                    <div class="dropdown-content">
+                        <div class="dropdown-content-container">
+                            <p>Optimizing Conversion Rates</p>
+                            <p>Creating Effective Sales Funnels</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textarea-container col-container">
+                <label>Message</label>
+                <textarea rows="6" class="input-field">50-100 employees</textarea>
+            </div>
+
+            <input class="submit-btn" type="button" value="Contact Sales">
+        </form>
+    
+    </main>
+</body>
+</html>
